@@ -15,13 +15,19 @@
     </properties>
 
     <dependencies>
+
+        <dependency>
+        <groupId>org.kordamp.ikonli</groupId>
+        <artifactId>ikonli-javafx</artifactId>
+        <version>12.3.0</version>
+        <scope>runtime</scope>
+    </dependency>
         <dependency>
             <groupId>org.kordamp.ikonli</groupId>
-            <artifactId>ikonli-fontawesome-pack</artifactId>
+            <artifactId>ikonli-win10-pack</artifactId>
             <version>12.3.0</version>
             <scope>runtime</scope>
         </dependency>
-
         <dependency>
             <groupId>org.kordamp.ikonli</groupId>
             <artifactId>ikonli-core</artifactId>
@@ -32,12 +38,12 @@
         <dependency>
             <groupId>org.openjfx</groupId>
             <artifactId>javafx-controls</artifactId>
-            <version>15.0.1</version>
+            <version>18</version>
         </dependency>
         <dependency>
             <groupId>org.openjfx</groupId>
             <artifactId>javafx-fxml</artifactId>
-            <version>15.0.1</version>
+            <version>18</version>
         </dependency>
 
         <dependency>

@@ -1,6 +1,6 @@
 package com.example.studentwordle;
 
-import org.kordamp.ikonli.javafx.FontIcon;
+//import org.kordamp.ikonli.javafx.FontIcon;
 import javafx.event.Event;
 import javafx.event.EventHandler;
 import javafx.geometry.Insets;
@@ -77,7 +77,7 @@ public class Keyboard extends VBox{
     if (keyText.equals("DELETE")){
       button.setText("@");  //TODO Change this to a space
       button.setMinWidth(64.0);
-      button.setGraphic(new FontIcon("typ-backspace-outline"));
+      //button.setGraphic(new FontIcon("typ-backspace-outline"));
     }
     return button;
   }

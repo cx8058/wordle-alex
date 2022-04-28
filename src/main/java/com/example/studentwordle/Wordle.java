@@ -23,7 +23,7 @@ public class Wordle extends Application {
       // TODO Create a Scene to hold the GameView.
       Scene scene = new Scene(view);
       // TODO Set the title of the stage, add scene to the stage, and display stage
-      stage.setTitle("Fill In Your Name Version");
+      stage.setTitle("");
       stage.setScene(scene);
       stage.show();
     }

@@ -10,6 +10,7 @@ import javafx.scene.layout.GridPane;
 import javafx.scene.layout.StackPane;
 import javafx.scene.layout.VBox;
 
+
 /**
  * Represents the whole graphical user interface (GUI).
  */
@@ -18,11 +19,20 @@ public class GameView extends VBox {
    * The GameController consumed by the TileBoard and the four graphical elements that make up
    * the view: a StackPane, a Label, a GridPane, and a VBox.
    */
+  // stackPane, a label, gridpane, and a VBox
   private GameController controller;
   private StackPane title;
-  private Label message=new Label("");
+  private Label message=new Label("GUESS WORD TO BEGIN THE GAME");
+
+
   private GridPane tileBoard;
   private VBox keyboard;
+
+
+
+
+
+
   /**
    * Creates a new GameView that is a VBox which has a connection to the specified
    * GameController. Sets the spacing between VBox elements to be 40. Builds the GameView.
@@ -49,9 +59,10 @@ public class GameView extends VBox {
    * @return a StackPane for the title
    */
   public StackPane createTitle() {
-    Label title = new Label("AUWordleFX");
+    Label title = new Label("Alex's Worldle");
     title.getStyleClass().add("title");
     // TODO: align the title in the top center of its parent element
+
     StackPane pane = new StackPane();
     pane.getChildren().add(title);
     pane.getChildren().add(new Separator());
